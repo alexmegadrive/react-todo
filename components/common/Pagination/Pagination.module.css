@@ -1,0 +1,18 @@
+/* Pagination container style */
+.paginationContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Pagination item wrapper style */
+.itemWrapper {
+    padding: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* Pagination active item wrapper style */
+.activeItemWrapper {
+    composes: itemWrapper;
+    font-weight: bold;
+}
