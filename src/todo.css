@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+}
+
+
+
+/* Task adding form */
+
+/* Tasks list */
+
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+.tasks-list__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tasks-list__list-item,
+.tasks-list__header {
+    margin: 4px 0;
+}
+
+.tasks-list__header {
+    text-align: center;
+}
+
+.tasks-list__list-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tasks-list__list-item > li {
+    word-break: break-all;
+}
+
+.tasks-list__list-item > button {
+    align-self: center;
+    margin-left: 4px;
+}
+
+
